@@ -125,6 +125,10 @@ int gb_mods_aud_get_mic_params(
 		struct gb_connection *connection);
 int register_mods_codec(bool register_mod);
 /*
+int register_mods_codec(bool register_mod){return register_mod;}
+*/
+
+/*
  * Platform drivers
  */
 extern struct platform_driver gb_audio_mods_driver;

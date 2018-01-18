@@ -213,7 +213,7 @@ static int mods_codec_shim_probe(struct snd_soc_codec *codec)
 
 	pr_info("mods codec shim probed\n");
 
-	register_mods_codec(true);
+	//register_mods_codec(true);
 
 	return 0;
 }
